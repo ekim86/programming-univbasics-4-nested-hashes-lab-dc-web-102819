@@ -16,7 +16,8 @@ def hopper
         }
      }
 
-
+  programmer_hash[:known_for] = "COBOL"
+  programmer_hash[:languages] = ["COBOL", "FORTRAN"]
 end
 
 def alan_kay_is_known_for
