@@ -20,8 +20,6 @@ def hopper
 end
 
 def alan_kay_is_known_for
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-	
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -81,6 +79,10 @@ def adding_matz
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
+        },
+        :yukihiro_matsumoto => {
+          :known_for => "Ruby",
+            :languages => ["LISP", "C"]
         }
      }
 
